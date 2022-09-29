@@ -8,7 +8,7 @@ print("Ответ:\n")
 if answer == "+":
  print(num1 + num2)
 elif answer=="-":\
-    print(num1 - num1)
+    print(num1 - num2)
 elif answer == "*":
     print(num1 * num2)
 elif answer == "/":
@@ -22,7 +22,6 @@ else:
         exit()
     else:
         D = D ** 0.5
-        print(D)
         x1 = str(((-1*num2) + D) / 2 * num1)
         x2 = str(((-1*num2) - D) / 2 * num1)
     if x1==x2:
